@@ -4,9 +4,9 @@ USE chat;
 
 CREATE TABLE messages (
   id int,
-  user varchar(500),
+  username varchar(500),
   text varchar(8000),
-  room varchar(500)
+  roomname varchar(500)
 );
 
 CREATE TABLE rooms (
